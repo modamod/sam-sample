@@ -3,8 +3,8 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "splash-page"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1rljuhpe7pvfk"
+s3_bucket = "modamod-test-bucket"
 s3_prefix = "splash-page"
 region = "us-east-1"
-confirm_changeset = true
+confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
